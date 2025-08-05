@@ -1,0 +1,244 @@
+.iphone { 
+    grid-area: iphone;
+}
+
+.iphone figure {
+    width: 40%;
+}
+
+.iphone .caption .paragh {
+    font-size: 12px;
+    font-family: montserrat, sans-serif;
+    color: #9FA3A7;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.iphone .caption h2 {
+    font-size: 22px;
+    font-family: Arvo, sans-serif;
+    line-height: 32px;
+}
+.caption-prgh {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    color: #9FA3A7;
+    line-height: 26px;
+}
+/* ===================================================================== */
+.learn {
+    grid-area: learn;
+}
+.learn p {
+    font-size: 12px;
+    font-family: montserrat, sans-serif;
+    color: #9FA3A7;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.learn h1 {
+    font-size: 48px;
+    font-family: Arvo, sans-serif;
+    color: #333333;
+}
+.learn a {
+    color: #27B9C2;
+    font-size: 14px;
+    font-family: Open Sans, sans-serif;
+}
+.keyboard {
+    grid-area: keyboard;
+    background-color: #f05638;
+}
+.keyboard h2 {
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+}
+.keyboard a {
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    color: #FFC80A;
+    letter-spacing: 2.4px;
+}
+/* ================================================================ */
+.imac {
+    grid-area: imac;
+}
+.imac img {
+    width: 170%;
+    position: relative;
+    left: -110%;
+    bottom: 5%;
+}
+.imac .title {
+    font-size: 12px;
+    font-family: montserrat, sans-serif;
+    color: #9FA3A7;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.imac h2 {
+    font-size: 22px;
+    font-family: Arvo, sans-serif;
+    line-height: 32px;
+}
+.imac a {
+    color: #27B9C2;
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 2.4px;
+}
+/* ================================================================================================== */
+.icloud {
+    grid-area: icloud;
+    background-color: #8F76BC;
+}
+.icloud .icloud-head {
+    background-color: #8166B0;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+
+}
+.icloud .icloud-head .ppl {
+    width: 30%;
+    height: 7%;
+    justify-self: center;
+    background-color: #8F76BC;
+    font-size: 10px;
+    letter-spacing: 2.4px;
+    line-height: 23px;
+    background-image: url(../images/5bc2f42d5a5ed9663e707e7d_Shape.png);
+    background-position: 8% 30%;
+    background-repeat: no-repeat;
+    background-size:12%;
+}
+.icloud .icloud-head .floppy-desc {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-family: Montserrat, sans-serif;
+}
+.icloud .icloud-head img {
+    width: 60%;
+}
+.icloud .icloud-desc h2 {
+    font-family: Arvo, sans-serif;
+    line-height: 36px;
+}
+.icloud .icloud-desc p {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+.icloud .icloud-desc .button {
+    width: 55%;
+    padding: 4% 1%;
+}
+.icloud .icloud-desc a {
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 2.4px;
+    line-height: 26px;
+}
+/* ====================================================================================== */
+.games {
+    grid-area: games;
+}
+.games img {
+    width: 65%;
+}
+.games h3 {
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+}
+.games a {
+    color: #27B9C2;
+    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 2.4px;
+}
+.experience {
+    grid-area: experience;
+    background-color: #93b6b7;
+    background-image: url(../images/5bc2f42d5a5ed97dab707e7e_UX.png);
+    background-position: 50% 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+}
+.experience div {
+    background-color: #FA684F;
+    width: 12%;
+    font-size: 8px;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.experience h2 {
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+}
+.experience img {
+    width: 98%;
+    transform: translate(-7.5%, 9%);
+
+}
+.twitter {
+    grid-area: twitter;
+    background-color: #38D5F4;
+}
+.twitter .twitter-logo {
+    background-color: #35CFED;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    justify-self: center;
+    transform: translateY(-5%);
+}
+.twitter .twitter-logo img {
+    width: 17%;
+}
+.twitter .twitter-logo h3 {
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+}
+.much-better {
+    grid-area: much-better;
+}
+.much-better div {
+    background-color: #7BC424;
+    width: 20%;
+    font-size: 8px;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    justify-self: center;
+}
+.much-better h3 {
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    justify-self: center;
+    color: #333333;
+}
+/* ========================================================================= */
+.tv {
+    grid-area: tv;
+    background-color: #2c2c2c;
+}
+.tv .tv-img {
+    width: 8%;
+}
+.tv img {
+    width: 400%;
+    transform: translateX(-20%);
+}
+.tv h3 {
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+}

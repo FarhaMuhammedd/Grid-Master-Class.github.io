@@ -1,0 +1,96 @@
+@media screen and (min-width:575px) {
+    
+}
+@media screen and (min-width:768px) {
+    #master {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.25fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "learn learn"
+        "iphone iphone"
+        "keyboard games"
+        "imac imac"
+        "twitter icloud"
+        "experience icloud"
+        "much-better much-better"
+        "tv tv";
+        box-sizing: border-box;
+    }
+    .imac img {
+        position: relative;
+        left: -110%;
+        bottom: 0%;
+    }
+    .icloud .icloud-head {
+        justify-self: center;
+    }
+    .icloud .icloud-desc .button {
+        width: 50%;
+    }
+    .experience div {
+        width: 30%;
+    }
+    .experience img {
+        width: 98%;
+        position: relative;
+        left: 0;
+        bottom: -42%;
+    }
+}
+@media screen and (min-width:1200px) {
+    #master {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.95fr 0.95fr 0.95fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "iphone iphone learn learn"
+        "keyboard imac imac icloud"
+        "games experience experience icloud"
+        "twitter much-better tv tv";
+        box-sizing: border-box;
+    }
+    .imac img {
+        position: relative;
+        left: -110%;
+        bottom: 6%;
+    }
+    .experience img {
+        width: 98%;
+        position: relative;
+        left: 0;
+        bottom: -18%;
+    }
+    .experience div {
+        width: 18%;
+    }
+    .icloud .icloud-desc .button {
+        width: 55%;
+    }
+    .much-better div {
+        width: 25%;
+    }
+}
+@media screen and (min-width:1400px) {
+    .imac img {
+        position: relative;
+        left: -110%;
+        bottom: 5%;
+    }
+    .experience img {
+        width: 98%;
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    .experience div {
+        width: 12%;
+    }
+    .much-better div {
+        width: 20%;
+    }
+}
